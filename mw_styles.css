@@ -1,0 +1,130 @@
+﻿@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Bike the Mountains Tour Style Sheet
+  Author: Todd Adcox Jr 
+    Date:  9/11/18 
+   
+   Filename: mw_styles.css
+
+*/
+
+
+/* Structural Styles */
+/* this is changing the back ground color of the whole website */
+html {
+    background-color: rgb(173, 189, 227);
+
+}
+
+/* this changes the color of the body of the website and adds the font family that is below */
+body {
+    background-color: rgb(227, 210, 173);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+/* this is changing the color of the footer and it is adding padding to the top and bottom of the footer as well */
+footer {
+    background-color: rgb(208, 184, 109);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* this is setting the font to normal */
+address {
+    font: normal;
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Heading Styles */
+h1,
+h2 {
+    font-weight: normal;
+}
+
+/* Navigation Styles */
+nav>ul {
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 0.9em;
+
+}
+
+nav a:link,
+nav a:visited {
+    list-style-type: none;
+    line-height: 2em;
+    font-size: .9em;
+}
+
+
+nav a:active,
+nav a:hover {
+    color: rgb(212, 35, 35);
+}
+
+
+/* Article Styles */
+article#“tour_summary” h1 {
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+}
+
+article#“tour_summary” p {
+    font-size: 1.1em;
+
+}
+
+article#tour_summary p:first-of-type::first-line {
+    font-size: 1.2em;
+    font-variant: small-caps;
+}
+
+/* Aside Styles */
+aside#tour__itinerary h1 {
+    font-size: 1.2em;
+}
+
+aside#tour__itinerary h2 {
+    font-size: 0.9em;
+}
+
+aside#tour__itinerary p {
+    font-size: 0.8em;
+}
+
+aside h2:nth-of-type(odd) {
+    color: rgb(79, 91, 40);
+}
+
+aside p:nth-of-type(odd) {
+    color: rgb(79, 91, 40);
+}
+
+aside h2:nth-of-type(even) {
+    color: rgb(81, 95, 175);
+}
+
+aside p:nth-of-type(even) {
+    color: rgb(81, 95, 175);
+}
+
+/* Blockquote Styles */
+blockquote {
+    background-color: rgb(173, 189, 227);
+    color: rgba(255, 255, 255, 0.65);
+    opacity: .65;
+}
+
+blockquote p {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

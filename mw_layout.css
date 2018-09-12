@@ -4,6 +4,9 @@
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 2
+
+    Author: Todd Adcox Jr 
+    Date:  9/11/18 
    
    Mountain Wheels Layout Styles
    Filename: mw_layout.css
@@ -18,41 +21,38 @@ body {
 	min-width: 640px;
 }
 
-body > header > img {
+body>header>img {
 	width: 100%;
 }
 
-body > nav {
+body>nav {
 	width: 20%;
 	float: left;
 }
 
-body > article#tour_summary {
+body>article#tour_summary {
 	width: 50%;
 	float: left;
 	margin-left: 2%;
 	margin-right: 2%;
 }
 
-body > aside#tour_itinerary {
+body>aside#tour_itinerary {
 	width: 24%;
 	float: left;
 	margin-right: 2%;
 }
 
-body > article#tour_summary > blockquote {
+body>article#tour_summary>blockquote {
 	float: right;
 	width: 42%;
 	margin: 10px;
 }
 
-body > footer {
+body>footer {
 	clear: left;
 	width: 100%;
 }
 
 
 /* Navigation List Styles */
-
-
-
